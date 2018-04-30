@@ -3,6 +3,7 @@ Mural Test by J Sebastian Vera
 [Live Demo](bit.ly/mural-test-jsv)
 
 ===============
+
 Used bootstrap: [Frontend Bootstrap](https://github.com/Wolox/frontend-bootstrap/tree/angular)
 
 ## License
