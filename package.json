@@ -33,7 +33,11 @@
     "angular-local-storage": "^0.5.2",
     "angular-mocks": "^1.5.8",
     "angular-translate": "^2.11.1",
-    "angular-ui-router": "^0.4.2"
+    "angular-ui": "^1.0.0",
+    "angular-ui-router": "^0.4.2",
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1",
+    "ng-draggable": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.8.0",

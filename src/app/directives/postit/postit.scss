@@ -1,0 +1,13 @@
+postit {
+  background-color: $yellow;
+  display: block;
+  height: auto;
+  position: absolute;
+  width: 300px;
+
+  .postit-area {
+    background-color: transparent;
+    border: 0;
+    transition: height 0.5s ease;
+  }
+}

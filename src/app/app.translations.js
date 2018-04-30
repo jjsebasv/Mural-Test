@@ -1,4 +1,4 @@
-angular.module('app-bootstrap').config([
+angular.module('mural-test-app').config([
   '$translateProvider',
   function ($translateProvider) {
 
@@ -13,7 +13,7 @@ angular.module('app-bootstrap').config([
         SATURDAY: 'Sabado'
       }
     });
-    $translateProvider.preferredLanguage('es');
+    $translateProvider.preferredLanguage('en');
     $translateProvider.useSanitizeValueStrategy(null);
   }
 ]);

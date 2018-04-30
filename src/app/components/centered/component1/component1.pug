@@ -1,6 +1,17 @@
 h1.frontend-bootstrap-component-1
-  | {{comp1Ctrl.component1Phrase}}
-h1.frontend-bootstrap-component-1
-  | {{ 'COMPO1.TITLE' | translate }}
-a(ui-sref='centered.state2')
-  | Go to state2
+  | {{ 'TEST.TITLE' | translate }}
+
+.creation-container
+  h4.subtitle
+    | {{ 'TEST.BY' | translate }}
+  .mural-workspace#container(ng-dblclick='comp1Ctrl.addNew($event)' ng-click='comp1Ctrl.clearSelect($event)')
+    postit(ng-repeat='postit in comp1Ctrl.postits track by $index' draggable elem='{{postit}}' element='postit')
+.note
+  h6.reference
+    | {{ 'TEST.REFERENCE1' | translate }}
+  h6.reference
+    | {{ 'TEST.REFERENCE2' | translate }}
+  h6.reference
+    | {{ 'TEST.REFERENCE3' | translate }}
+  h6.reference
+    | {{ 'TEST.REFERENCE4' | translate }}

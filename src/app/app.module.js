@@ -1,5 +1,5 @@
 angular.module(
-  'app-bootstrap', [
+  'mural-test-app', [
     'ui.router',
     'LocalStorageModule',
     'pascalprecht.translate'

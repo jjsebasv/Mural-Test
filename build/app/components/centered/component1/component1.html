@@ -1,3 +1,14 @@
 
-<h1 class="frontend-bootstrap-component-1">{{comp1Ctrl.component1Phrase}}</h1>
-<h1 class="frontend-bootstrap-component-1">{{ 'COMPO1.TITLE' | translate }}</h1><a ui-sref="centered.state2">Go to state2</a>
+<h1 class="frontend-bootstrap-component-1">{{ 'TEST.TITLE' | translate }}</h1>
+<div class="creation-container">
+  <h4 class="subtitle">{{ 'TEST.BY' | translate }}</h4>
+  <div class="mural-workspace" id="container" ng-dblclick="comp1Ctrl.addNew($event)" ng-click="comp1Ctrl.clearSelect($event)">
+    <postit ng-repeat="postit in comp1Ctrl.postits track by $index" draggable="draggable" elem="{{postit}}" element="postit"></postit>
+  </div>
+</div>
+<div class="note">
+  <h6 class="reference">{{ 'TEST.REFERENCE1' | translate }}</h6>
+  <h6 class="reference">{{ 'TEST.REFERENCE2' | translate }}</h6>
+  <h6 class="reference">{{ 'TEST.REFERENCE3' | translate }}</h6>
+  <h6 class="reference">{{ 'TEST.REFERENCE4' | translate }}</h6>
+</div>

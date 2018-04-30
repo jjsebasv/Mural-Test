@@ -1,3 +1,3 @@
-angular.module('app-bootstrap').constant('configuration', {
+angular.module('mural-test-app').constant('configuration', {
   apiUrl: '/* @echo API_URL */'
 });

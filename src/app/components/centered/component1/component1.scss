@@ -1,3 +1,26 @@
 .frontend-bootstrap-component-1 {
   font-style: italic;
 }
+
+.creation-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100% - 125px);
+  justify-content: space-around;
+  margin: 10px;
+
+  .subtitle,
+  .creation-wrapper {
+    width: 100%;
+  }
+
+  .mural-workspace {
+    background-color: $blue;
+    border: 2px solid $grey;
+    height: calc(100% - 60px);
+    margin-bottom: 45px;
+    position: relative;
+    width: 100%;
+  }
+}
