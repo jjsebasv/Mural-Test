@@ -1,6 +1,6 @@
 Mural Test by J Sebastian Vera
 
-[Live Demo](http://bit.ly/mural-test-jsv)
+[Live Demo](http://www.mural-test-jsv.com.ar.s3-website-us-east-1.amazonaws.com)
 
 ===============
 
