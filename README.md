@@ -4,6 +4,14 @@ Mural Test by J Sebastian Vera
 
 ===============
 
+### How to run
+
+In order to run this code from its source, please follow the following steps.
++ Clone or download the project
++ Follow the instalation process for [Frontend Bootstrap](https://github.com/Wolox/frontend-bootstrap/tree/angular#first-steps). Make sure you have installed every [main tool](https://github.com/Wolox/frontend-bootstrap/tree/angular#main-tools)
++ Step on the project's root from your terminal and run `gulp`
++ Open a browser tab in `localhost:3000`
+
 Used bootstrap: [Frontend Bootstrap](https://github.com/Wolox/frontend-bootstrap/tree/angular)
 
 ## License
